@@ -1,0 +1,27 @@
+.galeria{
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    
+
+}
+
+.imagens{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img{
+    max-width: 30%;
+    padding: 10px;
+}
+
+.ativo{
+    background-color: red;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galeria de fotos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <section class="galeria">
+        <header id="cabecalhoGaleria">
+            <button class="btn ativo" onclick="gerenciarImagens('tudo')">Tudo</button>
+            <button class="btn" onclick="gerenciarImagens('c1')">Fotos 1</button>
+            <button class="btn" onclick="gerenciarImagens('c2')">Fotos 2</button>
+            <button class="btn" onclick="gerenciarImagens('c3')">Fotos 3</button>
+        </header>
+
+        <article class="imagens">
+            <img src="img/img01.jpeg" class="img c1" style="width: 100%;">
+            <img src="img/img02.jpeg" class="img c2" style="width: 100%;">
+            <img src="img/img03.jpeg" class="img c1" style="width: 100%;">
+            <img src="img/img04.jpeg" class="img c3" style="width: 100%;">
+            <img src="img/img05.jpeg" class="img c2" style="width: 100%;">
+            <img src="img/img06.jpeg" class="img c3" style="width: 100%;">
+
+        </article>
+    </section>
+    
+</body>
+</html>
